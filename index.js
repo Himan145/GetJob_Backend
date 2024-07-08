@@ -15,7 +15,7 @@ ConnDB();
 
 
 app.use(cors({
-    origin: ["http://localhost:3000"],
+    origin: ["hhttps://get-job.onrender.com"],
     method: ["GET", "POST", "DELETE", "PUT"],
     credentials: true,
   }));
